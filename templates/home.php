@@ -24,10 +24,10 @@
           </div>
           <div class="row d-flex justify-content-center">
             <div class="col-4">
-              <div class="form-floating">
+              <form action="<?=url("/enderecos")?>" class="form-floating" id="form-search-cep">
                 <input type="text" class="form-control" id="search-address" placeholder="00000-000">
                 <label for="search-address">CEP</label>
-              </div>
+              </form>
             </div>
             <div class="col-1 d-flex">
               <button class="btn btn-primary btn-lg" id="button-search">Buscar</button>

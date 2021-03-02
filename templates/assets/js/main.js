@@ -1,5 +1,6 @@
 let inputCepSearch = document.getElementById('search-address')
 let buttonSearch = document.getElementById('button-search')
+let actionForm = document.getElementById('form-search-cep')
 
 let inputCep = document.getElementById('cep')
 let inputCidade = document.getElementById('cidade')
@@ -15,7 +16,8 @@ buttonSearch.addEventListener('click', () => {
 
 function getAddress(cep) {
   let xhr = new XMLHttpRequest();
-  xhr.open('POST', 'http://localhost/PHPtest/enderecos', true)
+  let url = actionForm.getAttribute("action")
+  xhr.open('POST', `${url}`, true)
   xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded')
 
   xhr.onreadystatechange = () => {
