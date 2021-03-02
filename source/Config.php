@@ -6,7 +6,7 @@ define("DATA_LAYER_CONFIG", [
   "driver" => "mysql",
   "host" => "localhost",
   "port" => "3306",
-  "dbname" => "cd2tec",
+  "dbname" => "phptest",
   "username" => "root",
   "passwd" => "",
   "options" => [
