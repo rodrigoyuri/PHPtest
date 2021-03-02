@@ -1,0 +1,29 @@
+{
+  "name": "rodrigoyuri/php-test",
+  "description": "Uma aplicacao Web que faz busca de endereco atraves de um CEP informado",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Rodrigo Yuri",
+          "email": "rodrigo33996@gmail.com"
+      }
+  ],
+  "config": {
+      "vendor-dir": "vendor"
+  },
+  "autoload": {
+      "psr-4": {
+          "Source\\": "source/"
+      }
+  },
+  "autoload-dev": {
+      "files": [
+          "source/Config.php"
+      ]
+  },
+  "require": {
+      "coffeecode/router": "1.0.*",
+      "coffeecode/datalayer": "1.1.*",
+      "league/plates": "3.*"
+  }
+}
