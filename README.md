@@ -47,21 +47,29 @@ Caso você opte por usar o **XAMPP** nas opções de download tem tanto a versã
 
 Então de forma resumida para testar a aplicação você deve ter:
 
-- O PHP 7.3 ou 7.4 instalado na sua maquina
+- O PHP 7.3 ou 7.4 instalado na sua maquina.
 
-- Instalar o Composer
+- Instalar o Composer.
 
 ## Mão na Massa
 
 ### Clonando o projeto
 
-Primeiramente clone o projeto na sua maquina onde se encontra seu servidor **APACHE**, como usei o **XAMPP** eu clonei no path C:\xampp\htdocs. Caso opte por usar o **XAMPP** é dentro da pasta htdocs que você deve clonar o projeto
+Primeiramente clone o projeto na sua maquina onde se encontra seu servidor **APACHE**, como usei o **XAMPP** eu clonei no path C:\xampp\htdocs. Caso opte por usar o **XAMPP** é dentro da pasta htdocs que você deve clonar o projeto.
+
+```bash
+git clone https://github.com/rodrigoyuri/PHPtest.git
+```
 
 ### Instalando as dependencias do projeto
 
 Agora que você ja clonou o projeto, navegue até ele pelo terminar ou prompt de comando e execute o seguinte comando:
 
 ```bash
+# Entre na pasta do projeto
+cd PHPtest
+
+# Instale as dependencias
 composer install
 ```
 
@@ -103,7 +111,7 @@ Exemplo abaixo:
 
 No caso de quem optou por não usar o **XAMPP**, execute o script sabendo que possivelmente você tenha que fazer alterações nele.
 
-### Confiurações do Projeto
+### Configurações do Projeto
 
 **OBS:** Caso você tenha chegado até aqui usando **XAMPP**, não precisa se preocupar pois essas configurações são mais voltadas para quem não utiliza o **XAMPP** ou outro banco de dados que não seja o **MySQL**.
 
@@ -126,7 +134,7 @@ define("DATA_LAYER_CONFIG", [
   "driver" => "mysql",
   "host" => "localhost",
   "port" => "3306",
-  "dbname" => "cd2tec",
+  "dbname" => "phptest",
   "username" => "root",
   "passwd" => "",
   "options" => [
