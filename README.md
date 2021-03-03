@@ -97,6 +97,10 @@ CREATE TABLE address
 
 No caso de quem baixou o **XAMPP** é só executar o software startar os serviço de **APACHE** e **MySQL** e em seu navegador digite o seguinte **http://localhost/phpmyadmin** essa URL vai levar você para o **PhpMyAdmin** onde você pode entrar na aba de **SQL** e executar o script.
 
+Exemplo abaixo:
+
+![PhpMyAdmin](https://github.com/rodrigoyuri/assets-readme/blob/main/PHPtest/phpmyadmin.png)
+
 No caso de quem optou por não usar o **XAMPP**, execute o script sabendo que possivelmente você tenha que fazer alterações nele.
 
 ### Confiurações do Projeto
@@ -111,11 +115,7 @@ Abre a pasta do projeto em um editor ou IDE de sua preferência, eu no caso uso 
 
 Com o projeto aberto em seu Editor ou IDE, abre a pasta **source** dentro dela teremos a seguinte estrutura:
 
-- Controllers
-
-- Models
-
-- Config.php
+![Estrutura pasta source](https://github.com/rodrigoyuri/assets-readme/blob/main/PHPtest/estrutura-source.png)
 
 A onde temos de ir é no **Config.php**, abre o arquivo e você se deperará com algo desse tipo:
 
@@ -166,7 +166,11 @@ O que você precisa saber é que dependendo da URL que é formada quando você s
 
 ### Tudo pronto
 
-Feito as mudanças no arquivo de Configuração e tendo o banco criado é só ir para os testes e ver como está a aplicação.
+Feito as mudanças no arquivo de Configuração e tendo o banco criado.
+
+Você ver essa algo como a imagem abaixo:
+
+![Home](https://github.com/rodrigoyuri/assets-readme/blob/main/PHPtest/home.png)
 
 Como testes temos:
 
@@ -186,4 +190,4 @@ Obrigado e até a proxima ✌️.
 
 **LinkedIn:** https://github.com/rodrigoyuri/
 
-**E-mail** rodrigo_yuri@hotmail.com
+**E-mail:** rodrigo_yuri@hotmail.com
