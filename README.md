@@ -2,8 +2,6 @@
 
 # Sobre o Projeto:
 
-[Demo do Projeto](https://link.para.demo.caso.houver)
-
 O projeto foi desenvolvido com intuito de fazer um teste de conhecimento, ele consisti em um sistema **Web** que consulta uma **API** de endereços através do CEP informado pelo usuário. (para mais detalhes acesse a documentação da [API](https://viacep.com.br/))
 
 O tipo de retorno escolhido para receber da API foi XML, onde no backend é feito um tratamento e salvo alguns dos dados em um banco de dados. 
