@@ -85,9 +85,11 @@ Mals por isso 😅.
 Não se preocupe eu ja deixei o script do banco de dados pronto, tudo que você precisa fazer é copiar e colocar o script abaixo em seu banco de dados:
 
 ```sql
-CREATE DATABASE phptest;
+CREATE OR REPLACE DATABASE phptest;
 
-CREATE TABLE address
+USE phptest;
+
+CREATE OR REPLACE TABLE address
 (
   id INTEGER PRIMARY KEY AUTO_INCREMENT NOT NULL,
   cep VARCHAR(8),
